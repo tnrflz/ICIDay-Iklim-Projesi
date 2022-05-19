@@ -1,0 +1,45 @@
+  .zoom {
+			  transition: transform .2s;
+		
+			  margin: 0 auto;
+			}
+
+			.zoom:hover {
+		      transform: scale(1.5); 
+			}
+
+			[open] summary {
+			  position: absolute;
+			  bottom: -1.5em;
+			  left: 0;
+			}
+
+			summary::before {
+			  content: "More";
+			}
+
+			[open] summary::before {
+			  content: "";
+			}
+
+			.more-text {
+			  position: relative;
+			  margin: 0 auto;
+			}
+
+		 	.menu
+		 	{
+
+		 	 	text-align:center;
+		 	 	color:white;
+		 	 	width: 10px;
+		 	    margin: 0 auto;
+		 	}
+
+.img {
+  opacity: 0.2;
+}
+
+.img:hover {
+  opacity: 1.0;
+}
